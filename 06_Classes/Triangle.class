@@ -1,0 +1,24 @@
+public class Triangle {
+    // Atributes of the triangle class
+    double base;
+    double height;
+    double sideA;
+    double sideB;
+    double sideC;
+
+     //Constructor for the Triangle class
+     public Triangle(double base, double height,
+                     double sideA, double sideB,
+                     double sideC){
+         this.base = base;
+         this.height = height;
+         this.sideA = sideA;
+         this.sideB = sideB;
+         this.sideC = sideC;
+     }
+
+     // Methods of the triangle class
+    public double findArea(){
+        return (this.base * this.height / 2);
+    }
+}
